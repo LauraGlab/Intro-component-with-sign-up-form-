@@ -1,0 +1,12 @@
+.adv-section{
+    background-color: hsl(248, 32%, 49%);
+  border-radius: 1em;
+  padding: 0.5em 3em;
+  text-align: center;
+  margin-bottom: 1.5em;
+  color: white;
+  box-shadow: 0.1em 0.4em 0.1em 0.1em hsl(0, 30%, 50%);
+}
+.adv-section span{
+    font-weight: 700;
+}

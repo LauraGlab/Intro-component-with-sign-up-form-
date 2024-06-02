@@ -1,0 +1,23 @@
+.section1{
+    color: white;
+    margin-top:2em;
+    padding: 0 1.5em;
+}
+h1{
+    font-size: 28px;
+    font-weight: 500px;
+}
+
+@media(min-width: 800px){
+    .section1{
+        width:40%;
+    }
+    .section1 h1{
+    font-size: 50px;
+    font-weight: 500px;
+    text-align: left;
+    }
+    .section1 p{
+        text-align: left;
+    }
+}

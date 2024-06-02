@@ -1,0 +1,16 @@
+.section2{
+    display: grid;
+  padding: 1.5em;
+  color: hsl(246, 25%, 77%);
+}
+.white-container{
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0.1em 0.4em 0.1em 0.1em hsl(0, 30%, 50%);
+}
+
+@media(min-width: 800px){
+    .section2{
+        width:40%;
+    }
+}

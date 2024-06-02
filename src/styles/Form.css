@@ -1,0 +1,90 @@
+.input-container{
+    display: block;
+    padding: 1.5em 1.5em 0;
+}
+.input-container input{
+    display: inline-block;
+    width: 100%;
+    box-sizing:border-box;
+    padding: 1em;
+    margin-bottom: 2em;
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 0.5em;
+  color: hsl(244, 8%, 40%);
+  font-size: 14px;
+  font-weight: 550;
+}
+.collecting-data{
+    position: relative;
+}
+button {
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  border: 1px solid hsl(154, 59%, 51%);
+  color: white;
+  font-size: 14px;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 1em;
+}
+button:hover {
+  background-color: white;
+  border: 1px solid hsl(154, 59%, 51%);
+  color: hsl(154, 59%, 51%);
+  transition: 0.5s;
+}
+.button-info{
+    font-size: 12px;
+    padding: 0 4em;
+    text-align: center;
+}
+a{
+    padding-left: 0.1em;
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+}
+
+/*error css*/
+input.error {
+  border: 2px solid hsl(0, 100%, 74%);
+  border-radius: 4px;
+  color: hsl(0, 100%, 74%);
+}
+input::placeholder .error{
+    color: hsl(0, 100%, 74%);;
+}
+input:focus{
+    outline: none;
+}
+
+small {
+  display: none;
+  position: absolute;
+  text-align: right;
+  right: 0;
+  bottom: -1.5em;
+}
+.error-span {
+  position: absolute;
+  bottom: 0.6em;
+  right: 0;
+    font-size: 12px;
+  font-weight: 600;
+  color: hsl(0, 100%, 74%);
+  text-align: right;
+  right: 0;
+}
+
+@media(min-width: 800px){
+    input{
+        width: 100%;
+        box-sizing:border-box;
+    }
+    button{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
